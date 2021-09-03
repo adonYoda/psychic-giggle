@@ -1,1 +1,1 @@
-worker: sh target/bin/psychicgiggle
+worker: sh target/bin/bot
