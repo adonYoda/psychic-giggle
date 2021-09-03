@@ -13,12 +13,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class bot extends TelegramLongPollingBot {
+public class Main extends TelegramLongPollingBot {
     public static void main(String[] args) {
         ApiContextInitializer.init();
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
         try {
-            telegramBotsApi.registerBot(new bot());
+            telegramBotsApi.registerBot(new Main());
 
         } catch (TelegramApiException e) {
             e.printStackTrace();
