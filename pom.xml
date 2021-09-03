@@ -28,7 +28,7 @@
                 <assembleDirectory>target</assembleDirectory>
                 <programs>
                     <program>
-                        <mainClass>main.java.Main</mainClass>
+                        <mainClass>java.main</mainClass>
                         <name>workerBot</name>
                     </program>
                 </programs>
